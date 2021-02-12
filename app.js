@@ -45,7 +45,7 @@ app.use(notFoundHandler);
 app.use(errorHandler);
 
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 3002;
 
 app.listen(port, hostname, () => {
   console.info(`Server running at http://${hostname}:${port}/`);
